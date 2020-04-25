@@ -1,0 +1,11 @@
+#just found out about itertools no more loops
+
+from itertools import combinations
+
+nl = [20, 303, 3, 4, 25]
+sm = 49
+a = list(combinations(nl, 3))
+b = list(map(sum, a))
+for i in range(len(b)):
+    if b[i] == sm:
+        print(' + '.join(map(str, a[i])), "= {0}".format(sm))
