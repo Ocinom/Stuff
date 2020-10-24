@@ -1,3 +1,5 @@
+# Needs improvement. Randomizing caps may result in words not being capitalized at all. WIP
+
 import random
 
 def randomize(text):
