@@ -1,4 +1,4 @@
-# Find shortest distance between nodes
+# Find shortest distance between nodes. WIP
 class node():
 
     def __init__(self, pn, cn):
