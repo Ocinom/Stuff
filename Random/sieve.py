@@ -1,3 +1,5 @@
+#Thanks computerphile.
+
 def nats(n):
     yield n
     yield from nats(n + 1)
